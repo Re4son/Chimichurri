@@ -1,0 +1,21 @@
+﻿Build started 24/05/2015 6:26:26 PM.
+     1>Project "D:\Users\Carsten\Chimichurri\Chimichurri.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Chimichurri.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Chimichurri.cpp
+         Chimichurri.cpp
+     1>Chimichurri.cpp(30): warning C4996: 'WSASocketA': Use WSASocketW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(3457) : see declaration of 'WSASocketA'
+     1>Chimichurri.cpp(33): warning C4244: 'argument' : conversion from 'DWORD' to 'u_short', possible loss of data
+     1>Chimichurri.cpp(34): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(D:\Users\Carsten\Chimichurri\Release\Chimichurri.exe) does not match the Linker's OutputFile property value (D:\Users\Carsten\Chimichurri\Release\Uroboros2.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(Chimichurri) does not match the Linker's OutputFile property value (Uroboros2). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\Uroboros2.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Release\Chimichurri.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\Chimichurri.lib" /MACHINE:X86 /SAFESEH Release\Chimichurri.obj
+         Release\stdafx.obj
+         Chimichurri.vcxproj -> D:\Users\Carsten\Chimichurri\Release\Chimichurri.exe
+     1>Done Building Project "D:\Users\Carsten\Chimichurri\Chimichurri.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.38
